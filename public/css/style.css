@@ -1,0 +1,81 @@
+.container{
+  width: 50vw;
+  margin: auto;
+}
+.table {
+	width: 100%;
+	margin-bottom: 20px;
+	/* border: 1px solid #dddddd; */
+	border-collapse: collapse; 
+}
+.table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #efefef;
+	border: 1px solid #dddddd;
+  position: relative;
+}
+.table td {
+	border: 1px solid #dddddd;
+	padding: 5px;
+}
+
+.table .edit {
+	border: none;
+}
+
+.about_td{
+  width: 40%;
+}
+
+.about{
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+
+button {
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  border: none;
+}
+
+.sort_button{
+  background-image: url(../img/sort.png);
+  border: 1px solid #c9c9c9;
+  position: absolute;
+  right: 5px;
+
+}
+
+.eye_color {
+  position: relative;
+}
+
+.edit_button {
+  background-image: url(../img/edit.png);
+}
+
+.confirm_button {
+  background-image: url(../img/confirm.png);
+
+}
+
+.cancel_button {
+  background-image: url(../img/cancel.png);
+}
+
+.about_textarea {
+  width: 100%;
+}
+
+.pagination_button{
+  margin-right: 5px;
+}
+
+.pagination_button__active{
+  background-color: rgb(24, 219, 34);
+}
